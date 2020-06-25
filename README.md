@@ -1,1 +1,1 @@
-# QR Code Community Client -Made With React.js
+# QR Code Community Client - Made With React.js
