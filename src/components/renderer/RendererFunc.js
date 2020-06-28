@@ -2,8 +2,8 @@ import React from "react";
 import { ParamTypes } from "../../constant/ParamTypes";
 import { getTypeTable, QRPointType } from "../../utils/qrcodeHandler";
 import { createRenderer } from "../style/Renderer";
-import LinkTrace from "../link/LinkTrace";
-import RenderDSJ from "./RendererDSJ";
+//import LinkTrace from "../link/LinkTrace";
+// RenderDSJ from "./RendererDSJ";
 
 function listPoints(qrcode, params) {
   if (!qrcode) return [];
@@ -15,7 +15,7 @@ function listPoints(qrcode, params) {
   let type = params[0];
   let size = params[1] / 100;
   let funcType = params[1];
-  let opacity = params[2] / 100;
+  //let opacity = params[2] / 100;
   let posType = params[3];
   let id = 0;
   let otherColor = params[4];
@@ -197,7 +197,7 @@ function listPoints(qrcode, params) {
         if (funcType === 1) {
           let sizeF = 0;
           let colorF = otherColor;
-          let fillF = colorF;
+         // let fillF = colorF;
           let opacityF = Number(qrcode.isDark(x, y));
           if (dist > 5 / 20 && dist < 8 / 20) {
             sizeF = 5 / 10;

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import LinkButton from "../link/LinkButton";
-import GitHubButton from 'react-github-btn'
-import LinkTrace from "../link/LinkTrace";
+//import GitHubButton from 'react-github-btn'
+//import LinkTrace from "../link/LinkTrace";
 
 const PartMore = () => (
   <>

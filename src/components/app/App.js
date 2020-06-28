@@ -3,7 +3,7 @@ import "./App.css";
 import "../Qrcode.css";
 import PartFooter from "./PartFooter";
 import PartHeader from "./PartHeader";
-import PartMore from "./PartMore";
+//import PartMore from "./PartMore";
 import PartParams from "./PartParams";
 import PartDownloadViewer from "../../containers/app/PartDownloadViewer";
 import PartStylesViewer from "../../containers/app/PartStylesViewer";
@@ -13,7 +13,7 @@ import { loadDownloadData } from "../../actions";
 import ReactGA from "react-ga";
 import { setScrollbarWidthProp } from "../../utils/util";
 
-ReactGA.initialize("UA-165845289-1");
+ReactGA.initialize("UA-136597536-6");
 function App({ dispatch }) {
   const updateDownloadData = useCallback(
     (downloadData) => dispatch(loadDownloadData(downloadData)),

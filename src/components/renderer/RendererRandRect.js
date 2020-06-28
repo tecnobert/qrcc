@@ -1,7 +1,7 @@
 import React from "react";
 import { rand } from "../../utils/util";
 import { createRenderer } from "../style/Renderer";
-import { RendererLine } from "./RendererLine";
+//import { RendererLine } from "./RendererLine";
 
 function listPoints(qrcode, params) {
   if (!qrcode) return [];
