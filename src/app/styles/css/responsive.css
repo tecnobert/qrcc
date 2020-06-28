@@ -1,0 +1,43 @@
+/*Responsive*/
+@media screen and (max-width: 720px) {
+  .colInput {
+    width: 100%;
+    background-color: #002661;
+    color: white;
+    height: 100vh;
+    flex-direction: row;
+    padding: 2pc;
+  }
+  .colOutput {
+    width: 100%;
+    background-color: #92ffc0;
+    color: white;
+    height: 100vh;
+    flex-direction: row;
+    padding: 2pc;
+  }
+  .resultDiv {
+    background-color: #002661;
+    width: 100%;
+    height: auto;
+    padding: 2pc;
+    border-radius: 16px;
+  }
+  .resultSub {
+    padding: 0.5pc;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .resultBaseQR {
+    width: 12pc;
+    height: 12pc;
+    border-radius: 2pc;
+    margin-bottom: 8px;
+  }
+  .resultButton {
+    border-radius: 6px;
+    width: 80%;
+  }
+}
