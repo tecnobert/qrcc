@@ -17,7 +17,7 @@ ReactGA.initialize("UA-136597536-6");
 function App({ dispatch }) {
   const updateDownloadData = useCallback(
     (downloadData) => dispatch(loadDownloadData(downloadData)),
-    []
+    [dispatch]
   );
   setScrollbarWidthProp();
 
