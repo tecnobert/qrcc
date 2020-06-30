@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Futura';
-  src: url('./fonts/Futura.ttc');
-}
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
 :root {
     color-scheme: light dark;
@@ -72,7 +69,32 @@ code {
 .navTopStyleContainer span {
   color: aliceblue;
   font-size: small;
-  font-family: "Baloo 2", cursive;
+  font-family: 'MuseoModerno', cursive;
   padding: 0;
   margin: 0;
+}
+@media screen and (max-width: 720px) {
+.navTopStyleContainer {
+  text-align: center;
+  background-image: linear-gradient(90deg, #92ffc0, #002661);
+  top: 0;
+  padding-top: 0.9px;
+  padding-bottom: 0.9px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: linear-gradient(270deg, #92ffc0, #002661);
+  background-size: 400% 400%;
+  -webkit-animation: navTopStyleContainerAnimation 13s ease infinite;
+  -moz-animation: navTopStyleContainerAnimation 13s ease infinite;
+  animation: navTopStyleContainerAnimation 13s ease infinite;
+}
+
+.navTopStyleContainer span {
+  color: aliceblue;
+  font-size: x-small;
+  font-family: 'MuseoModerno', cursive;
+  padding: 0;
+  margin: 0;
+}
 }

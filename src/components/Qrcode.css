@@ -229,12 +229,6 @@
     -moz-animation-duration: 0.2s;
     transition-duration: 0.2s;
 }
-
-.Qr-item-desc {
-
-}
-
-
 .Qr-item-desc-inner {
     height: 0;
     opacity: 0;
