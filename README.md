@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://raw.githubusercontent.com/hebertcisco/qrcg/master/.github/images/favicon512x512-qrcg.png" align="center" alt=":package: qrcg" />
+ <img width="100px" src="https://raw.githubusercontent.com/hebertcisco/qrcg/master/.github/images/favicon512x512-qrcc.png" align="center" alt=":package: qrcg" />
  <h2 align="center">:package: qrcg</h2>
  <p align="center">QR Code Generator - Made With React.js</p>
 </p>
